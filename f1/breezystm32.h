@@ -1,7 +1,7 @@
 /*
 breezystm32.h : general header for BreezySTM32 library
 
-Copyright (C) 2016 Simon D. Levy 
+Copyright (C) 2016 Simon D. Levy
 
 This file is part of BreezySTM32.
 
@@ -143,6 +143,7 @@ along with BreezySTM32.  If not, see <http://www.gnu.org/licenses/>.
 #include "serial_uart.h"
 
 extern serialPort_t * Serial1;
+extern serialPort_t * Serial2;
 
 void debug(const char * fmt, ...);
 
