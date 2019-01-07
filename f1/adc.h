@@ -21,6 +21,9 @@
 
 #pragma once
 
+#include <stdint.h>
+#include <stdbool.h>
+
 typedef enum {
     ADC_BATTERY = 0,
     ADC_EXTERNAL_PAD = 1,
